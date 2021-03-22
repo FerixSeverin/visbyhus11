@@ -36,8 +36,8 @@ export const LandingTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              '#5269A6 0.5rem 0px 0px, #5269A6 -0.5rem 0px 0px',
+            backgroundColor: '#5269A6',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -60,6 +60,9 @@ export const LandingTemplate = ({
                   <div className="tile">
                     <h3 className="subtitle">{main.description}</h3>
                   </div>
+                </div>
+                <div>
+                  <BlogRoll/>
                 </div>
               </div>
             </div>
